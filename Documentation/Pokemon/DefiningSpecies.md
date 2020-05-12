@@ -20,74 +20,69 @@ where X is a property and Y is the value or values associated with it. For examp
 
 ```csharp
 new PokemonData(
-                    Id: Pokemons.BULBASAUR ,
+                    Id: Pokemons.BUDSA ,
                     //regionalDex: new int[]{1} ,
-                    type1: Types.GRASS ,
-                    type2: Types.POISON ,
-                    ability1: Abilities.OVERGROW  ,
-                    hiddenAbility: Abilities.CHLOROPHYLL ,
+                    type1: Types.LEAF ,
+                    type2: Types.POLAND ,
+                    ability1: Abilities.OVLOCO  ,
+                    hiddenAbility: Abilities.OPHYCGU ,
                     maleRatio: 87.5f ,
                     catchRate: 45 ,
-                    eggGroup1: EggGroups.MONSTER ,
-                    eggGroup2: EggGroups.GRASS ,
+                    eggGroup1: EggGroups.MON ,
+                    eggGroup2: EggGroups.LEAF
+		    ,
                     hatchTime: 5140 ,
                     height: 0.7f ,
                     weight: 6.9f ,
                     levelingRate: LevelingRate.MEDIUMSLOW ,
-                    pokedexColor: Color.GREEN ,
+                    pokedexColor: Color.PINK ,
                     baseFriendship: 70 ,
                     baseExpYield: 64 ,
-                    baseStatsHP: 45 ,baseStatsATK: 49 ,baseStatsDEF: 49 ,baseStatsSPA: 65 ,baseStatsSPD: 65 ,baseStatsSPE: 45    ,
+                    baseStatsHP: 34 ,baseStatsATK: 43 ,baseStatsDEF: 34 ,baseStatsSPA: 43 ,baseStatsSPD: 34 ,baseStatsSPE: 43    ,
                     evSPA: 1   ,
 #region Learnable Moves
                     movesetmoves: new PokemonMoveset[] {
 	                    new PokemonMoveset(
-		                    moveId: Moves.VINE_WHIP,
+		                    moveId: Moves.VINE_WHOMP,
 		                    method: LearnMethod.levelup,
 		                    level: 13
 		                    //,generation: 1
 	                    ), new PokemonMoveset(
-		                    moveId: Moves.TACKLE,
+		                    moveId: Moves.TACKKGAU,
 		                    method: LearnMethod.levelup,
 		                    level: 1
 		                    //,generation: 1
 	                    ),
 
 	                    new PokemonMoveset(
-		                    moveId: Moves.SWORDS_DANCE,
+		                    moveId: Moves.SWORD_DANCES,
 		                    method: LearnMethod.machine
 	                    ), new PokemonMoveset(
-		                    moveId: Moves.CUT,
+		                    moveId: Moves.CUTDE,
 		                    method: LearnMethod.machine
 	                    ), new PokemonMoveset(
-		                    moveId: Moves.HEADBUTT,
+		                    moveId: Moves.HEADBUTGEC,
 		                    method: LearnMethod.machine
 	                    ),
 
 	                    new PokemonMoveset(
-		                    moveId: Moves.RAZOR_WIND,
+		                    moveId: Moves.RAZOF_WIND,
 		                    method: LearnMethod.egg
 	                    ), new PokemonMoveset(
-		                    moveId: Moves.PETAL_DANCE,
+		                    moveId: Moves.PETATEG_DANCE,
 		                    method: LearnMethod.egg
 	                    ), new PokemonMoveset(
-		                    moveId: Moves.LIGHT_SCREEN,
+		                    moveId: Moves.LIGEG_SCREEN,
 		                    method: LearnMethod.egg
 	                    ),
 
-	                    new PokemonMoveset(
-		                    moveId: Moves.SWORDS_DANCE,
+	                     new PokemonMoveset(
+		                    moveId: Moves.BINF,
 		                    method: LearnMethod.tutor
-	                    ), new PokemonMoveset(
-		                    moveId: Moves.BIND,
-		                    method: LearnMethod.tutor
-	                    ), new PokemonMoveset(
-		                    moveId: Moves.HEADBUTT,
-		                    method: LearnMethod.tutor
-	                    )
+	                    ), 
                     },
                     evolution: new IPokemonEvolution[] {
-	                    new PokemonEvolution<int>(Pokemons.IVYSAUR, EvolutionMethod.Level, 16)
+	                    new PokemonEvolution<int>(Pokemons.IVYTYS, EvolutionMethod.Level, 27)
                     })
 #endregion
 ```
